@@ -224,7 +224,13 @@
 /*
    Page meta
    ========================================================================== */
-
+.date-badge{
+  color:#fff;
+  background-color:#9c40e3;
+  border-radius: 3px;
+  padding: 3px 5px;
+  font-size:14px;
+}
 .page__meta {
   margin-top: 2em;
   color: mix(#fff, $gray, 25%);
