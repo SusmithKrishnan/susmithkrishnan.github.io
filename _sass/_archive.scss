@@ -15,7 +15,8 @@
   }
 
   a {
-    text-decoration: underline;
+    color:#212735;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
@@ -114,6 +115,13 @@
 
 .grid__item {
   margin-bottom: 2em;
+  max-height: 400px;
+  overflow: hidden;
+
+  .date-badge{
+    background-color: #fff;
+    color: #555;
+  }
 
   .page__meta {
     margin: 0 0 4px;
