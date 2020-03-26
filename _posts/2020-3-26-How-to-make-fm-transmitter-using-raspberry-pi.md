@@ -7,7 +7,7 @@ tags:
   - raspberrypi
 ---
 
-Raspberry PI's have built in EMI supression functionality for reducing external noise using *Spread Spectrum Clock Signal* (**SSCS**). This signals can be modulated and used as FM transmitter. The frequency range is between 1MHz - 250Mhz and emitted on GPIO pin 4.
+Raspberry PI's have built in EMI supression functionality for reducing external noise using *Spread Spectrum Clock Signal* (**SSCS**). This signal can be modulated and used as FM transmitter. The frequency range is between 1MHz - 250Mhz and emitted on GPIO pin 4.
 
 Hook a jumper wire or external antenna to GPIO pin 4. That is the only hardware requirement.
 
